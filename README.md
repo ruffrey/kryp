@@ -3,7 +3,7 @@ kryp
 
 Simple encode and decode layer for Node.js
 
-```bash $ npm install kryp```
+```npm install kryp```
 
 ```javascript
   var kryp = require('kryp');  // takes options object (optional) 
