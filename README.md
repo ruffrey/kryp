@@ -3,7 +3,7 @@ kryp
 
 Simple encode and decode layer for Node.js
 
-`
+```javascript
   var kryp = require('kryp');  // takes options object (optional) 
   
   var some_string = "I need to be encrypted!!";
@@ -12,7 +12,7 @@ Simple encode and decode layer for Node.js
   
   var decoded_string = kryp.decode(encrypted_string);
   
-`
+```
 
 license
 ====
