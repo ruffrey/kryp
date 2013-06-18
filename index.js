@@ -1,1 +1,1 @@
-module.exports = require('./lib/kryp.js');
+module.exports = require('./kryp.js');
