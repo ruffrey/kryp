@@ -3,6 +3,7 @@ kryp
 
 Simple encode and decode layer for Node.js
 
+<<<<<<< HEAD
 
 installation
 ====
@@ -12,6 +13,9 @@ installation
 example
 ====
 
+=======
+```npm install kryp```
+>>>>>>> 2fa23feebb1983bef684675e66333fe776c5487a
 
 ```javascript
   var Kryp = require('kryp');  // takes options object (optional) 
