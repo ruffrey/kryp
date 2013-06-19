@@ -3,19 +3,14 @@ kryp
 
 Simple encode and decode layer for Node.js
 
-<<<<<<< HEAD
 
 installation
 ====
-`npm install`
+`npm install kryp`
 
 
 example
 ====
-
-=======
-```npm install kryp```
->>>>>>> 2fa23feebb1983bef684675e66333fe776c5487a
 
 ```javascript
   var Kryp = require('kryp');  // takes options object (optional) 
@@ -23,7 +18,7 @@ example
   var kryp = new Kryp({
 		algorithm = 'AES-256-CFB' // Encryption algorithm
 	  , key = 'secretKey' // Encryption key
-	  ,	from = 'utf8' // Original encoding
+	  , from = 'utf8' // Original encoding
 	  ,	to = 'hex' // Conversion encoding
   });
   
