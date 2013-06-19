@@ -7,8 +7,8 @@ function kryp(options) {
 	var crypto = require('crypto')
 	  
 	  // Options
-	  , algorithm = options.algorithm || 'aes-256-cbc' // Encryption algorithm
-	  ,	key = options.key || 'your default secret goes here' // Encryption key
+	  , algorithm = options.algorithm || 'AES-256-CFB' // Encryption algorithm
+	  ,	key = options.key || '' // Encryption key
 	  ,	from = options.from || 'utf8' // Original encoding
 	  ,	to = options.to || 'hex' // Conversion encoding
 
@@ -25,7 +25,10 @@ function kryp(options) {
 	function decrypt(str) {
 		
 		var decipher = crypto.createDecipher(algorithm, key)
-		  , decrypted = decipher.update(str, to, from) + decipher.final(from);
+		  , decrypted = decipher.update(str, to, from);
+		decipher.setAutoPadding(auto_padding=true);
+		
+		decrypted += decipher.final(from);
 		  
 		return decrypted;
 	}
@@ -41,4 +44,4 @@ function kryp(options) {
 	};
 }
 
-module.exports = kryp;
+exports.kryp = kryp;

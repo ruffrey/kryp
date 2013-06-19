@@ -1,25 +1,27 @@
 {
-    "name": "kryp",
-    "description": "Very simple encryption methods for strings.",
-    "version": "0.2.0",
-    "keywords": [
-        "encryption",
-        "security",
-        "decode"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/ruffrey/kryp.git"
-    },
-    "author": {
-        "name": "Jeff Parrish",
-        "email": "jpx@wiggleware.com",
-        "url": "http://wiggleware.com"
-    },
-    "license": "MIT",
-    "engines": {
-        "node": ">= 0.6.x"
-    },
-    "dependencies": {},
-    "private": false
+  "name": "kryp",
+  "description": "Very simple encryption methods for strings.",
+  "version": "0.4.0",
+  "keywords": [
+    "encryption",
+    "security",
+    "decode"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruffrey/kryp.git"
+  },
+  "author": "Jeff Parrish <jpx@wiggleware.com> (http://wiggleware.com)",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.6.x"
+  },
+  "dependencies": {},
+  "private": false,
+  "readmeFilename": "README.md",
+  "gitHead": "23c1a994f58b74a78e554bc95b6847c7266c8569",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
